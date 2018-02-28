@@ -1,0 +1,150 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  background-color: #e0e0e0;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+button.no-style:focus, button.no-style:active, button.no-style:checked, button.no-style:visited, button.no-style:hover {
+  background-color: transparent;
+}
+
+.game-wrapper {
+  margin: 0 auto;
+}
+
+.title {
+  margin: 40px 0;
+  font-size: 52px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.status-list {
+  margin: 0 auto 15px auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 360px;
+}
+
+.square {
+  background: #ffffff;
+  border: 3px solid #616161;
+  float: right;
+  font-size: 150px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #e0e0e0;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  float: left;
+  width: 750px;
+  padding: 20px 75px;
+
+}
+
+.game-info {
+  float: left;
+  background-color: #bdbdbd;
+  height: 100vh;
+  width: 450px;
+  padding: 20px;
+}
+
+/*.btn {
+    padding: 5px 10px;
+    border-radius: 0;
+    margin: 5px 0;
+    background-color: rgba(41, 182, 246, 0.6);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active, .btn:focus, .btn:visited {
+    background-color: rgba(41, 182, 246, 1);
+}
+
+.btn-start {
+    background-color: rgba(178, 255, 89, 0.6);
+}
+
+.btn-start:active, .btn-start:focus, .btn-start:visited{
+    background-color: rgba(178, 255, 89, 1);
+}*/
+
+.list {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.list-item {
+  margin: 15px auto;
+  width: 100%;
+}
+
+.list-item button {
+  width: 100%;
+}
+
+.list-item:first-of-type {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #616161;
+}
+
+.bold button {
+  font-weight: bold;
+}
+
+.green-tag {
+  color: rgba(76, 175, 80, 0.50);
+}
+
+.red-tag {
+  color: rgba(244, 67, 54, 0.50);
+}
+
+.green-tag.win {
+  color: rgba(76, 175, 80, 1);
+}
+
+.red-tag.win {
+  color: rgba(244, 67, 54, 1);
+}
+
+.small {
+  font-size: 0.7rem;
+}
