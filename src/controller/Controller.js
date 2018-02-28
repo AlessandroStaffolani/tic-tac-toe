@@ -48,6 +48,7 @@ export function getSquarePosition(i) {
 }
 
 function getSquaresValue(squares, i) {
+    
     if (squares[i] !== undefined) {
         if (squares[i] !== null) {
             if (squares[i].props.children !== undefined) {
